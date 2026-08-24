@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!-- https://awebco.com/wp-content/uploads/quicklube-project-hero-example-above-the-fold.jpg
+  Style guide
+-->
+
+<!-- for vite: npm run dev -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="eclipse_logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel = 'stylesheet' href = 'src/style.css'>
+    <title>Eclipse Benefitting THON™</title>
+  </head>
+  <body>
+    <div id="app">
+      <nav class = "nav">    
+        <img src = 'eclipse_logo.png' width = "75" height = "75" id = 'navlogo' />
+        
+        <a href = '#home' id = 'headerlink'>Home</a>
+        <a href = '#family' id = 'headerlink'>Our Misson</a>
+        <a href = '#socials' id = 'headerlink'>Our Family</a>
+        <a href = '#home' id = 'headerlink'>Links & Socials</a>
+        
+      </nav>
+      <div id = 'mainpage'>
+        <div id = 'mainpage-text'>
+          <h1>Eclipse Benefitting THON™</h1>
+          <p>Dedicated to supporting Penn State THON™ and fighting pediatric cancer.</p>
+          
+          <a href = "https://donate.thon.org/events/4554/donate">
+            <img id = 'donate_image' src = 'donate_now.png' />
+          </a>
+
+        </div>
+      </div>
+
+      <div id = 'aboutbar'>Inclusive   |   Dedicated   |   Friendly   |   Fun </div>
+      <div id = 'countdowntimer'>
+        <span id = 'countdownlabel'>COUNTDOWN TO THON:&Tab;&Tab;</span>
+        <span id = 'days'>0</span>
+        <span id = 'hours'>0</span>
+        <span id = 'minutes'>0</span>
+        <span id = 'seconds'>0</span>
+      </div>
+    </div>
+
+    <script src = '/src/countdown.ts'></script>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

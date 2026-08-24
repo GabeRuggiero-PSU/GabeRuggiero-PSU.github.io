@@ -1,0 +1,88 @@
+body {
+  margin: 0px;
+}
+
+.nav {
+  color: white;
+  height: 8vh;
+  background-color:black;
+  display: flex;
+  align-items: center;
+}
+
+#navlogo {
+  margin-left: 10%
+}
+
+#headerlink {
+  margin:7%;
+  color:white;
+  text-decoration: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+#mainpage {
+  width: 100vw;
+  height: 75vh;
+  background-image: url('/eclipse_at_THON.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  position:relative;
+}
+
+#mainpage-text {
+  position: absolute;
+  bottom: 1%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  background: rgba(0, 0, 0, 0.67);
+
+  color:white;
+
+  padding: 15px 32px;
+  max-width: 100vw;
+  text-align:center;
+
+  border-radius: 10px;
+}
+
+#mainpage-text img {
+  width: 40%;
+  
+  fill: transparent;
+  background-color: black;
+}
+
+#aboutbar {
+  width: 100vw;
+  height: 8vh;
+  background-image: linear-gradient(rgba(150, 150, 150, .6), rgba(205, 205, 205), rgba(150, 150, 150, .8));
+
+  display: flex;
+  justify-content: center;
+  white-space: pre;
+  align-items: center;
+  font-weight: bold;
+  font-size: 2vw;
+  
+}
+
+#countdowntimer {
+  width: 100vw;
+  height: 9vh;
+  background-image: linear-gradient(rgba(245, 215, 40), rgba(245, 190, 33));  
+  font-size: 2vw;
+  display: flex;
+  justify-content: center;
+  white-space: pre;
+  align-items: center;
+}
+
+#countdownlabel {
+  font-style: italic;
+  font-weight: bold; 
+}
